@@ -8,8 +8,7 @@ public class TempConvert{
     System.out.println("Please enter a temp in C");
     Scanner input = new Scanner (System.in);
     float temp = input.nextFloat();
-    // explain math in comment.
-    temp = temp * 3 / 4 + 332;
+    temp = temp * 9 / 5 + 32;
     System.out.println("Temperature in F is " + temp);
   }
 } 
